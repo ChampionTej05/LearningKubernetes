@@ -29,8 +29,8 @@ kind: Pod
 metadata:
   name: my-pod
   labels: # labels can have custom fields
-    - app : my-app
-      type: front-end
+    app : my-app
+    type: front-end
 spec:
   containers:
     - name : nginx-c
@@ -51,8 +51,8 @@ kind: ReplicationController
 metadata:
   name: my-rc
   labels: # labels can have custom fields
-    - app : my-app
-      type: front-end
+    app : my-app
+    type: front-end
 spec:
   template:
     metadata:
@@ -87,15 +87,15 @@ kind: ReplicaSet
 metadata:
   name: my-rs
   labels: # labels can have custom fields
-    - app : my-app
-      type: front-end
+    app : my-app
+    type: front-end
 spec:
   template:
     metadata:
       name: my-pod
       labels: # labels can have custom fields
-        - app : my-app
-          type: front-end
+        app : my-app
+        type: front-end
     spec:
       containers:
         - name : nginx-c
