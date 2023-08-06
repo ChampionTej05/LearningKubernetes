@@ -37,8 +37,8 @@ They have been externally exposed (localhost) to test out working of the applica
 ### Architecture for the Project 
 ![Alt text](IMG_3A0BCD6FFF6C-1.jpeg)
 
-
 ### References 
-
 Application code is taken from the www.kodekloud.com test exercises. All docker images used are developed and maintained by Kodekloud 
+
+
 
